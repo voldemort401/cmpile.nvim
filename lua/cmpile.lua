@@ -11,7 +11,7 @@ function M.compile_file()
 
   Job:new({
     command = Compiler,
-    args    = { current_file, '' },
+    args    = { current_file, Compiler_args },
     cwd     = wd,
   }):sync() -- or start()
 end
