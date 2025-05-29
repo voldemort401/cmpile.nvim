@@ -18,7 +18,7 @@ end
 
 function M.setup(opts)
   opts = opts or {}
-  vim.api.nvim_create_user_command("compile", M.compile_file, {})
+  vim.api.nvim_create_user_command("Compile", M.compile_file, {})
 
   local keymap  = opts.keymap or '<leader>cm'
   Compiler      = opts.compiler or 'g++'
