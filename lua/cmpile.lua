@@ -20,7 +20,7 @@ function M.setup(opts)
   opts = opts or {}
   vim.api.nvim_create_user_command("Compile", M.compile_file, {})
 
-  local keymap  = opts.keymap or '<leader>cm'
+  local keymap  = opts.keymap or '<leader>mm'
   Compiler      = opts.compiler or 'g++'
   Compiler_args = opts.compiler_args or '-o main.out'
 
