@@ -3,7 +3,7 @@ Compile C/C++ files directly from nvim
 
 > Usage:
 >   
->     :compile or <leader>cm
+>     :compile or <leader>mm
 
 ## ⚠️ Warning 
 This may not be what you are looking for this plugin is very barebones.
