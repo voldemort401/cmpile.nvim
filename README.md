@@ -17,7 +17,7 @@ Requires [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
       {
         'voldemort401/cmpile.nvim',
         opts = {
-            keymap = "<leader>cm",           -- optional: override the default keymap
+            keymap = "<leader>mm",           -- optional: override the default keymap
             Compiler = 'g++',                -- optional: change the default compiler{SIDENOTE: you can pass in pretty much any command here }
             Compiler_args = "-o main.out",   -- optional: give the compiler some arguments
         }
